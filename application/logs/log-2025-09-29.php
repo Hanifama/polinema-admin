@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-09-29 05:40:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 06:29:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:25:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:25:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:25:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:26:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:26:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:26:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:26:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:26:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:26:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:41:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:42:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:42:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:42:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:42:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:42:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2025-09-29 11:42:35 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php

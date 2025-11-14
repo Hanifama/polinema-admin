@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Tailiwnd -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-amber-50">
+    <nav class="w-full p-4 z-20">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex flex-1">
+          <div class="bg-white shadow-md rounded-2xl px-6 py-4 lg:py-2 flex flex-row items-center justify-center gap-5 hover:bg-neutral-300 duration-300 cursor-pointer">
+            <img src="assets/icons/icon-bars-2.svg" />
+            <div class="font-bold hidden lg:block">Menu</div>
+          </div>
+        </div>
+
+        <!-- Nav Links -->
+        <div class="flex justify-end">
+          <div class="flex flex-row items-center gap-5">
+            <a href="#">
+              <div class="w-10 h-10 flex items-center shadow-md justify-center bg-green-700 rounded-full">
+                <img src="assets/icons/icon-whatsapp.svg" />
+              </div>
+            </a>
+            <a class="#">
+              <div class="bg-amber-500 shadow-md text-white rounded-2xl px-6 py-2 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>Email us</div>
+                <img src="assets/icons/icon-email.svg" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container mx-auto p-6 mt-20">
+        <div class="flex flex-col lg:flex-row items-center lg:items-end justify-between gap-4">
+          <div class="_banner-title__label _font-anton-regular text-neutral-800 text-6xl">
+            BOOK AN <br />
+            APPOINTMENT
+          </div>
+          <div class="text-xs text-neutral-700 mr-0 lg:mr-12 text-center lg:text-start">Thank you for your interest! <br />Our team will be in touch shortly</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto p-6 lg:mt-20">
+        <form>
+          <div class="grid grid-cols-1 lg:grid-cols-3 items-start gap-8">
+            <div class="lg:col-span-2 bg-white rounded-3xl p-6 border border-neutral-300">
+              <h4 class="_font-anton-regular text-neutral-800 text-3xl">INTAKE FORM</h4>
+              <dix class="text-sm mt-4">Tell us the problem and expectations. Let us craft tailored solution for you.</dix>
+              <div class="border-y border-black h-2 w-full mt-8"></div>
+
+              <div class="mt-4 flex flex-col gap-6">
+                <div>
+                  <input class="border border-neutral-300 rounded-2xl w-full bg-amber-50 px-8 py-4" placeholder="Emter Name" />
+                </div>
+                <div>
+                  <input class="border border-neutral-300 rounded-2xl w-full bg-amber-50 px-8 py-4" placeholder="Company" />
+                </div>
+                <div>
+                  <input class="border border-neutral-300 rounded-2xl w-full bg-amber-50 px-8 py-4" placeholder="Your Email Address" />
+                </div>
+                <div>
+                  <input class="border border-neutral-300 rounded-2xl w-full bg-amber-50 px-8 py-4" placeholder="Whatsapp / Phone Number" />
+                </div>
+                <div class="border border-neutral-300 rounded-2xl w-full bg-amber-50 px-8 py-4">
+                  <select class="w-full bg-transparent focus:outline-none">
+                    <option value="#">Maketing</option>
+                    <option value="#">Advertising</option>
+                    <option value="#">Creative</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="bg-amber-500 h-full rounded-xl p-6 flex items-center gap-5 justify-center hover:bg-orange-600 duration-300">
+              <div class="text-white uppercase block lg:hidden">Book an Appointment</div>
+              <img src="assets/icons/icon-arrow-top-right.svg" class="object-fit w-3 h-3 lg:w-auto lg:h-auto" />
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="relative bg-white w-full">
+      <div class="container mx-auto p-6 pt-20">
+        <div class="grid grid-cols-3 gap-3 items-center mt-4 mb-2 text-neutral-700 text-sm">
+          <a href="#" class="text-start hover:text-neutral-900 underline">Instagram</a>
+          <a href="#" class="text-center hover:text-neutral-900 underline">Threads</a>
+          <a href="#" class="text-end hover:text-neutral-900 underline">Linkedin</a>
+        </div>
+        <hr />
+        <div class="flex flex-col items-center justify-between gap-3 mt-2 text-neutral-400 text-sm">
+          <div>© 2024 PT. Pio Indokreasi Optima All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

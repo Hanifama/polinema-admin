@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Carousel Swiper Style -->
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Tailiwnd -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <nav class="absolute top-0 w-full p-4 z-40">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex flex-1">
+          <div class="bg-white rounded-2xl px-6 py-4 lg:py-2 flex flex-row items-center justify-center gap-5 hover:bg-neutral-300 duration-300 cursor-pointer">
+            <img src="assets/icons/icon-bars-2.svg" />
+            <div class="font-bold hidden lg:block">Menu</div>
+          </div>
+        </div>
+
+        <div class="flex flex-1 items-center justify-center">
+          <img src="assets/icons/logo-piodigital.svg" />
+        </div>
+
+        <!-- Nav Links -->
+        <div class="flex flex-1 justify-end">
+          <a href="book-appoinment.html">
+            <div class="flex flex-row items-center gap-5">
+              <div class="hidden lg:flex bg-amber-500 text-white rounded-2xl px-6 py-2 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>Book an Appointment</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </div>
+              <div class="w-10 h-10 flex items-center justify-center bg-white rounded-full">
+                <img src="assets/icons/logo-pio-symbol.svg" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="section-1" class="banner-container z-30">
+      <!-- Slider main container -->
+      <img src="assets/img/img-header.png" class="w-full h-full object-cover" />
+
+      <div class="_banner-title w-full">
+        <div class="container mx-auto z-40">
+          <div class="_banner-title__label _font-anton-regular z-40">
+            Own your brand’s <br />
+            digital achievement 
+          </div>
+          <div class="mt-4 text-white text-center lg:text-start text-xs lg:text=base">Whoever yo are, we will bring all of your needs to life.</div>
+        </div>
+      </div>
+
+      <!-- MOBILE VERSION -->
+      <div class="_banner-button block lg:hidden">
+        <a href="book-appoinment.html" class="w-full bg-amber-500 mb-8 text-white rounded-2xl px-6 py-2 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+          <div>Book an Appointment</div>
+          <img src="assets/icons/icon-arrow-right.svg" />
+        </a>
+      </div>
+
+      <div class="absolute -top-20 left-50 w-96 h-96 rounded-full blur-3xl opacity-50 _bg-primary"></div>
+      <div class="absolute top-50 left-50 w-96 h-96 rounded-full blur-3xl opacity-30 bg-sky-400"></div>
+      <div class="absolute -top-32 -left-24 w-[450px] h-[450px] rounded-full blur-3xl opacity-50 bg-neutral-700"></div>
+      <div class="absolute -top-32 -right-24 w-[450px] h-[450px] rounded-full blur-3xl opacity-50 bg-neutral-700"></div>
+    </section>
+
+    <section id="section-2" class="bg-gradient-to-b from-neutral-900 to-white">
+      <div class="container mx-auto p-6">
+        <div class="relative mt-24" style="padding-top: 56.25%">
+          <img id="clipper-frame-video" src="assets/img/img-binder-clip.png" class="absolute hidden lg:block -top-24 right-8 z-20" />
+          <iframe id="frame-video" class="z-10 absolute inset-0 w-full h-full _rounded-5xl opacity-0" src="https://www.youtube-nocookie.com/embed/FMrtSHAAPhM" frameborder="0" …></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-3" class="sticky top-0 min-h-screen flex flex-col items-center justify-center">
+      <div class="container mx-auto lg:p-6 mt-8">
+        <div class="relative">
+          <div id="s3-title" class="text-5xl w-[70%] lg:w-auto mx-auto lg:text-9xl _font-anton-regular text-center">HOW CAN WE HELP YOU?</div>
+          <div id="s3-sub-title" class="absolute inset-0 text-8xl lg:text-9xl _font-aberatta-regular text-center text-amber-500">Our Services</div>
+        </div>
+
+        <div id="s3-card-list" class="mt-6">
+          <div class="flex flex-row items-start gap-6 lg:gap-12 overflow-x-auto whitespace-nowrap p-6">
+            <div class="bg-white flex-1 min-w-[360px] md:min-w-min p-9 border border-neutral-300 rounded-3xl flex-shrink-0 w-80 md:w-auto text-wrap hover:scale-105 duration-300">
+              <h2 class="_font-anton-regular text-4xl lg:text-5xl">MARKETING</h2>
+              <p class="mt-4">Perfect to reach the audience and build a meaningful long-lasting connection between brand and customer.</p>
+              <div class="mt-6 w-fit bg-amber-500 text-white rounded-2xl px-6 py-2 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>Services</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </div>
+              <div class="mt-8">
+                <ul class="list-inside list-image-[url(assets/icons/icon-chevron-right.png)]">
+                  <li class="border-t border-neutral-300 py-4">Social Media Optimization</li>
+                  <li class="border-t border-neutral-300 py-4">Marketing Communication</li>
+                  <li class="border-t border-neutral-300 py-4">Digital Marketing</li>
+                  <li class="border-t border-neutral-300 py-4">Brand Activations</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-white flex-1 min-w-[360px] md:min-w-min p-9 border border-neutral-300 rounded-3xl flex-shrink-0 w-80 md:w-auto text-wrap hover:scale-105 duration-300">
+              <h2 class="_font-anton-regular text-4xl lg:text-5xl">ADVERTASING</h2>
+              <p class="mt-4">Get your brand recognized by more people and earn more profit. Let us help you spread your brand awareness effectively.</p>
+              <div class="mt-6 w-fit bg-amber-500 text-white rounded-2xl px-6 py-2 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>Services</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </div>
+              <div class="mt-8">
+                <ul class="list-inside list-image-[url(assets/icons/icon-chevron-right.png)]">
+                  <li class="border-t border-neutral-300 py-4">Social Media Optimization</li>
+                  <li class="border-t border-neutral-300 py-4">Marketing Communication</li>
+                  <li class="border-t border-neutral-300 py-4">Digital Marketing</li>
+                  <li class="border-t border-neutral-300 py-4">Brand Activations</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-white flex-1 min-w-[360px] md:min-w-min p-9 border border-neutral-300 rounded-3xl flex-shrink-0 w-80 md:w-auto text-wrap hover:scale-105 duration-300">
+              <h2 class="_font-anton-regular text-4xl lg:text-5xl">CREATIVE</h2>
+              <p class="mt-4">Increase visibility, and tell the unique story effectively through powerful creative branding we bring..</p>
+              <div class="mt-6 w-fit bg-amber-500 text-white rounded-2xl px-6 py-2 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>Services</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </div>
+              <div class="mt-8">
+                <ul class="list-inside list-image-[url(assets/icons/icon-chevron-right.png)]">
+                  <li class="border-t border-neutral-300 py-4">Social Media Optimization</li>
+                  <li class="border-t border-neutral-300 py-4">Marketing Communication</li>
+                  <li class="border-t border-neutral-300 py-4">Digital Marketing</li>
+                  <li class="border-t border-neutral-300 py-4">Brand Activations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden lg:block w-full rounded-3xl bg-neutral-200 z-70 relative">
+          <div class="_font-anton-regular text-5xl uppercase text-center py-8">Appoint Us a Meeting</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="h-screen"></div>
+
+    <section class="relative bg-white pt-12">
+      <div class="container mx-auto p-6 mt-8 z-50">
+        <div class="relative">
+          <div class="text-5xl w-[70%] lg:w-auto mx-auto lg:text-9xl _font-anton-regular text-center">OUR <br class="block lg:hidden" />PROJECTS</div>
+          <div class="absolute inset-0 text-8xl lg:text-9xl _font-aberatta-regular text-center text-amber-500 whitespace-nowrap">Our Works</div>
+        </div>
+
+        <!-- DESKTOP VERSION -->
+        <div class="hidden relative lg:flex flex-row items-start gap-6 py-2 mt-12">
+          <div class="hidden lg:flex flex-[2] flex-col gap-8">
+            <div class="min-w-[400px] lg:min-w-min text-wrap group cursor-pointer">
+              <div class="w-full overflow-hidden rounded-3xl">
+                <img src="assets/img/temp/img-our-project-1.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <div class="flex flex-row items-center gap-4 mt-4 mb-3">
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Social Media Optimization</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Programmatic Ads</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">E-Commerce Optimization</div>
+              </div>
+              <h4 class="text-5xl font-semibold group-hover:text-amber-500 duration-300">Keju WINCheez Indnesia</h4>
+            </div>
+
+            <div class="min-w-[400px] lg:min-w-min text-wrap group cursor-pointer">
+              <div class="w-full overflow-hidden rounded-3xl">
+                <img src="assets/img/temp/img-our-project-2.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <div class="flex flex-row items-center gap-4 mt-4 mb-3">
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Branding</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Social Media Optimization</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Website Development</div>
+              </div>
+              <h4 class="text-5xl font-semibold group-hover:text-amber-500 duration-300">Emiya Guirtars</h4>
+            </div>
+          </div>
+
+          <div class="flex flex-1 flex-row lg:flex-col gap-8 overflow-x-auto whitespace-nowrap pb-8 lg:pb-0">
+            <div class="min-w-[400px] lg:min-w-min text-wrap group cursor-pointer">
+              <div class="w-full overflow-hidden rounded-3xl">
+                <img src="assets/img/temp/img-our-project-3.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <div class="flex flex-row items-center gap-4 mt-4 mb-3">
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Social Media Optimization</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Website Development</div>
+              </div>
+              <h4 class="text-2xl font-semibold group-hover:text-amber-500 duration-300">Emiya Guitars</h4>
+            </div>
+
+            <div class="min-w-[400px] lg:min-w-min text-wrap group cursor-pointer">
+              <div class="w-full overflow-hidden rounded-3xl">
+                <img src="assets/img/temp/img-our-project-4.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <div class="flex flex-row items-center gap-4 mt-4 mb-3">
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Social Media Optimization</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Website Development</div>
+              </div>
+              <h4 class="text-2xl font-semibold group-hover:text-amber-500 duration-300">Emiya Guitars</h4>
+            </div>
+
+            <div class="min-w-[400px] lg:min-w-min text-wrap group cursor-pointer">
+              <div class="w-full overflow-hidden rounded-3xl">
+                <img src="assets/img/temp/img-our-project-5.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <div class="flex flex-row items-center gap-4 mt-4 mb-3">
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Social Media Optimization</div>
+                <div class="border border-neutral-500 rounded-full px-4 py-1 text-[8pt] text-neutral-500">Website Development</div>
+              </div>
+              <h4 class="text-2xl font-semibold group-hover:text-amber-500 duration-300">Emiya Guitars</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOBILE VERSION -->
+        <div class="relative flex lg:hidden flex-row items-start gap-6 py-2 mt-12">
+          <div class="flex flex-1 flex-row gap-3 overflow-x-auto pb-8">
+            <div class="min-w-[360px] lg:min-w-min text-wrap group cursor-pointer p-4 bg-white border border-neutral-400 rounded-[20px]">
+              <div class="flex flex-row items-center gap-3">
+                <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                <h4 class="text-base font-semibold group-hover:text-amber-500 duration-300">Emiya Guitars</h4>
+              </div>
+              <div class="w-full overflow-hidden rounded-xl mt-3">
+                <img src="assets/img/temp/img-our-project-3.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <a href="our-works.html" class="w-full bg-amber-500 mt-4 text-white rounded-2xl px-6 py-1 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>See More</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </a>
+            </div>
+
+            <div class="min-w-[360px] lg:min-w-min text-wrap group cursor-pointer p-4 bg-white border border-neutral-400 rounded-[20px]">
+              <div class="flex flex-row items-center gap-3">
+                <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                <h4 class="text-base font-semibold group-hover:text-amber-500 duration-300">Emiya Guitars</h4>
+              </div>
+              <div class="w-full overflow-hidden rounded-xl mt-3">
+                <img src="assets/img/temp/img-our-project-3.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <a href="our-works.html" class="w-full bg-amber-500 mt-4 text-white rounded-2xl px-6 py-1 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>See More</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </a>
+            </div>
+
+            <div class="min-w-[360px] lg:min-w-min text-wrap group cursor-pointer p-4 bg-white border border-neutral-400 rounded-[20px]">
+              <div class="flex flex-row items-center gap-3">
+                <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                <h4 class="text-base font-semibold group-hover:text-amber-500 duration-300">Emiya Guitars</h4>
+              </div>
+              <div class="w-full overflow-hidden rounded-xl mt-3">
+                <img src="assets/img/temp/img-our-project-3.png" class="object-cover w-full aspect-video group-hover:scale-110 duration-700" alt="" />
+              </div>
+              <a href="our-works.html" class="w-full bg-amber-500 mt-4 text-white rounded-2xl px-6 py-1 flex flex-row items-center justify-center gap-3 hover:bg-neutral-300 duration-300 cursor-pointer">
+                <div>See More</div>
+                <img src="assets/icons/icon-arrow-right.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-5" class="relative bg-white w-full">
+      <div class="container mx-auto p-6 py-24 w-auto lg:w-[1140px]">
+        <div id="s5-text" class="text-center _font-anton-regular text-6xl lg:text-9xl">WE ARE DIGITAL STORYTELLERS, THINKERS, TINKERERS, AND CLOUD DEVELOPERS.</div>
+      </div>
+    </section>
+
+    <section class="p-6 relative z-50 bg-white">
+      <div class="container mx-auto bg-slate-100 rounded-xl pt-10 pb-20">
+        <div class="text-center text-2xl font-semibold pb-8">OUR CLIENTS</div>
+        <div class="mx-auto w-20 h-1 border-t border-black border-dotted"></div>
+        <div class="grid grid-cols-4 gap-4 mt-12 w-[90%] mx-auto">
+          <div class="flex items-center justify-center">
+            <img src="https://placehold.co/300x100" class="w-full object-fit" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="https://placehold.co/300x100" class="w-full object-fit" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="https://placehold.co/300x100" class="w-full object-fit" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="https://placehold.co/300x100" class="w-full object-fit" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hidden lg:block relative bg-white w-full">
+      <div class="container mx-auto p-6 py-20">
+        <div class="grid grid-cols-4 items-center gap-4">
+          <a href="#home" class="w-full border border-neutral-200 p-2 rounded-full">
+            <div class="_font-anton-regular text-xl text-center">HOME</div>
+          </a>
+          <a href="#about" class="w-full border border-neutral-200 p-2 rounded-full">
+            <div class="_font-anton-regular text-xl text-center">ABOUT</div>
+          </a>
+          <a href="our-works.html" class="w-full border border-neutral-200 p-2 rounded-full">
+            <div class="_font-anton-regular text-xl text-center">OUR WORKS</div>
+          </a>
+          <a href="#" class="ml-auto p-3 rounded-full border border-neutral-200 w-fit">
+            <img src="assets/icons/icon-arrow-top.svg" class="w-4 h-4" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative bg-white w-full">
+      <div class="container mx-auto p-6 pt-20">
+        <div id="s6-say-hello" class="flex flex-col lg:flex-row items-center justify-center gap-20">
+          <div class="relative _font-anton-regular z-30 text-[92pt] leading-none text-neutral-800">
+            <span class=""
+              >SAY HELLO <br />
+              TO US</span
+            >
+            <div class="absolute top-[200px] right-0 lg:-top-14 lg:-right-40">
+              <img src="assets/img/img-male-sit.png" class="w-96 h-96 lg:w-80 lg:h-80" alt="..." />
+            </div>
+          </div>
+          <a href="#" class="z-40 bg-amber-400 rounded-xl h-60 w-80 shadow-lg flex items-center justify-center">
+            <div class="_font-anton-regular text-white text-4xl">LET'S TALK</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="relative bg-white w-full">
+      <div class="container mx-auto p-6 pt-20">
+        <div class="grid grid-cols-3 gap-3 items-center mt-4 mb-2 text-neutral-700 text-sm">
+          <a href="#" class="text-start hover:text-neutral-900 underline">Instagram</a>
+          <a href="#" class="text-center hover:text-neutral-900 underline">Threads</a>
+          <a href="#" class="text-end hover:text-neutral-900 underline">LinkedIn</a>
+        </div>
+        <hr />
+        <div class="flex flex-col items-center justify-between gap-3 mt-2 text-neutral-400 text-sm">
+          <div>© 2024 PT. Pio Indokreasi Optima All Rights Reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <!-- <script src="js/index.js"></script> -->
+  </body>
+</html>

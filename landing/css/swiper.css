@@ -1,0 +1,86 @@
+/* Container for the Swiper to center it in the middle of the page */
+.banner-container {
+  position: relative;
+  height: 100vh;
+  background-color: var(--bg-amber);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Swiper container styling */
+.swiper {
+  width: 100vw;
+  height: 100%;
+  margin-top: -150px;
+  transition: all 500ms ease;
+  animation: show-swiper;
+  animation-duration: 1s;
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    margin-top: 240px;
+  }
+}
+
+@keyframes show-swiper {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Ensure slides use Flexbox to center content and add padding for top/bottom gap */
+.swiper-slide {
+  width: 450px;
+  display: flex;
+  align-items: center; /* Vertically center the card */
+  justify-content: center; /* Horizontally center the card */
+  padding: 10px 0; /* Adjust padding to create gaps at the top and bottom */
+}
+
+/* Card styles */
+.swiper-card {
+  width: 100%; /* Make sure the card takes full width */
+  height: 100%; /* Let the card take the full height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; /* Ensures padding doesn’t affect overall size */
+}
+
+/* Inactive slide background and transition */
+.swiper-slide .swiper-card {
+  /* background-color: gray; */
+  opacity: 1;
+  transition: all 0.5s ease; /* Smooth transition */
+}
+
+/* Active slide background and transition */
+.swiper-slide-active .swiper-card {
+  /* background-color: blue; */
+  opacity: 1;
+  transition: all 0.5s ease; /* Smooth transition */
+}
+
+.swiper-slide .swiper-block {
+  width: 270px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 30px;
+  transition: all 600ms ease;
+}
+
+.swiper-slide-active .swiper-block {
+  border-radius: 0px;
+  transition: all 600ms ease;
+}
+
+.swiper-block img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

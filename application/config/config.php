@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -23,14 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://admin-hipolinema.webview.cloud/';
+$config['base_url'] = 'http://202.10.56.166/admin/';
 
-$config['accet_url'] = $config['base_url'].'accets/';
+$config['accet_url'] = $config['base_url'] . 'accets/';
 $config['left_url'] = $config['base_url'];
-$config['base_path'] = realpath(dirname(__FILE__) . '/../..').'/';
+$config['base_path'] = realpath(dirname(__FILE__) . '/../..') . '/';
 $config['pdf_path'] = $config['base_path'];
 $config['photo_url'] = "";
-$config['photo_sv_url'] = $config['base_url']. "uploads/photo/";
+$config['photo_sv_url'] = $config['base_url'] . "uploads/photo/";
 $config['photo_path'] = $config['base_path'] . "uploads/photo/";
 $config['banner_photo_url'] = $config['base_url'] . "uploads/admin/";
 $config['banner_photo_path'] = $config['base_path'] . "uploads/admin/";
@@ -66,7 +66,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol']    = 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------
@@ -90,7 +90,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']    = 'english';
 
 /*
 |--------------------------------------------------------------------------
@@ -404,11 +404,11 @@ $config['sess_regenerate_destroy'] = FALSE;
 |       'cookie_httponly') will also affect sessions.
 |
 */
-$config['cookie_prefix']	= '';
-$config['cookie_domain']	= '';
-$config['cookie_path']		= '/';
-$config['cookie_secure']	= FALSE;
-$config['cookie_httponly'] 	= FALSE;
+$config['cookie_prefix']    = '';
+$config['cookie_domain']    = '';
+$config['cookie_path']        = '/';
+$config['cookie_secure']    = FALSE;
+$config['cookie_httponly']     = FALSE;
 
 /*
 |--------------------------------------------------------------------------

@@ -59,7 +59,7 @@ class Auth extends CI_Controller
 				$activeMenu = $this->user->getActiveMenu($user_id);
 
 				$this->session->set_userdata('menu', $activeMenu);
-				redirect(site_url('admin/dashboard'), 'refresh');
+				redirect('welcome/index', 'refresh');
 			} else {
 				// if the login was un-successful
 				// redirect them back to the login page

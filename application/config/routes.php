@@ -60,10 +60,10 @@ $route['admin']                  = "auth/login";
 $route['setting']                  = "setting";
 $route['login']                  = "auth/login";
 
-$route['welcome'] = 'admin/dashboard';
-$route['welcome/index'] = 'admin/dashboard';
-$route['admin/dashboard'] = 'admin/dashboard';
-$route['dashboard'] = 'admin/dashboard';
+$route['welcome'] = 'admin/admin/index';
+$route['welcome/index'] = 'admin/admin/index';
+$route['admin/dashboard'] = 'admin/admin/index';
+$route['dashboard'] = 'admin/admin/index';
 
 $route['translate_uri_dashes'] = FALSE;
 

@@ -59,14 +59,7 @@ $route['admin/password']                  = "auth/change_password";
 $route['admin']                  = "auth/login";
 $route['setting']                  = "setting";
 $route['login']                  = "auth/login";
-
-$route['welcome'] = 'admin/admin/index';
-$route['welcome/index'] = 'admin/admin/index';
-$route['admin/dashboard'] = 'admin/admin/index';
-$route['dashboard'] = 'admin/admin/index';
-
 $route['translate_uri_dashes'] = FALSE;
-
 
 /*
 | -------------------------------------------------------------------------
